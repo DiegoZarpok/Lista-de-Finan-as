@@ -1,0 +1,70 @@
+body {
+    background-color: #e6e6fa; /* Cor de fundo lilás */
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo francês */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Ajuste para tornar responsivo */
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    font-family: 'Garamond', serif; /* Fonte estilo francês */
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    background-color: #f8f8ff; /* Tom de lilás claro para a tabela */
+    border-radius: 5px;
+    width: 100%; /* Ajuste para tornar responsivo */
+}
+
+.table th {
+    background-color: #9370db; /* Cor do cabeçalho da tabela */
+    color: #ffffff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #e0e0e0; /* Cor de fundo alternada para as linhas */
+}
+
+.table th:nth-child(1) {
+    background-color: #dda0dd; /* Cor diferente para "Descrição" */
+}
+
+.table th:nth-child(2) {
+    background-color: #ba55d3; /* Cor diferente para "Valor" */
+}
+
+.table th:nth-child(3) {
+    background-color: #9932cc; /* Cor diferente para "Data" */
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+    
+    form {
+        padding: 10px;
+    }
+
+    .table th, .table td {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
